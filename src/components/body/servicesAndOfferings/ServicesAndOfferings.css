@@ -1,0 +1,54 @@
+.services{
+    width: 100%;
+}
+.servces-container{
+    width: 84%;
+    padding: 100px 0 10px 140px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-element{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 65px 0 0;
+}
+
+@media only screen and (max-width:992px){
+    .servces-container{
+        width: 75%;
+        padding: 100px 0 10px 140px !important;
+    }
+    .grid-element{
+        width: 38%;
+    }
+  }
+ @media only screen and (max-width:768px){
+    .grid-element{
+        width: 87%;
+        /* padding: 10px !important; */
+    }
+    .help-customers{
+        width:100% !important;
+    }
+    .servces-container{
+        padding: 100px 0 10px 100px !important;
+    }
+  } 
+
+  @media only screen and (max-width: 600px) {
+    .servces-container{
+        padding: 100px 0 10px 50px !important;
+        /* width: 80%; */
+    }
+    .grid-element{
+        width: 100%;
+        padding-right: 0 !important;
+    }
+}
